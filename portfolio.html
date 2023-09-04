@@ -96,8 +96,12 @@
             <li class="project-list-item">
               <a href="" class="project-link link">
                 <div class="project-box">
-                  <img class="option-item-image"
-                    srcset="./images/portfolio/portfolio-1-@1x.jpg, ./images/portfolio/portfolio-1-@2x.jpg, "
+                  <img
+                    class="option-item-image"
+                    srcset="
+                      ./images/portfolio/portfolio-1-@1x.jpg,
+                      ./images/portfolio/portfolio-1-@2x.jpg
+                    "
                     src="./images/portfolio/portfolio-1.jpg"
                     alt="Product"
                     width="360"
@@ -122,7 +126,10 @@
               <a href="" class="project-link link">
                 <div class="project-box">
                   <img
-                    srcset="./images/portfolio/portfolio-2-@1x.jpg, ./images/portfolio/portfolio-2-@2x.jpg, "
+                    srcset="
+                      ./images/portfolio/portfolio-2-@1x.jpg,
+                      ./images/portfolio/portfolio-2-@2x.jpg
+                    "
                     src="./images/portfolio/portfolio-2.jpg"
                     alt="Product"
                     width="360"
@@ -145,7 +152,10 @@
               <a href="" class="project-link link">
                 <div class="project-box">
                   <img
-                    srcset="./images/portfolio/portfolio-3-@1x.jpg, ./images/portfolio/portfolio-3-@2x.jpg, "
+                    srcset="
+                      ./images/portfolio/portfolio-3-@1x.jpg,
+                      ./images/portfolio/portfolio-3-@2x.jpg
+                    "
                     src="./images/portfolio/portfolio-3.jpg"
                     alt="Product"
                     width="360"
@@ -168,7 +178,10 @@
               <a href="" class="project-link link">
                 <div class="project-box">
                   <img
-                    srcset="./images/portfolio/portfolio-4-@1x.jpg, ./images/portfolio/portfolio-4-@2x.jpg, "
+                    srcset="
+                      ./images/portfolio/portfolio-4-@1x.jpg,
+                      ./images/portfolio/portfolio-4-@2x.jpg
+                    "
                     src="./images/portfolio/portfolio-4.jpg"
                     alt="Product"
                     width="360"
@@ -191,7 +204,10 @@
               <a href="" class="project-link link">
                 <div class="project-box">
                   <img
-                    srcset="./images/portfolio/portfolio-5-@1x.jpg, ./images/portfolio/portfolio-5-@2x.jpg, "
+                    srcset="
+                      ./images/portfolio/portfolio-5-@1x.jpg,
+                      ./images/portfolio/portfolio-5-@2x.jpg
+                    "
                     src="./images/portfolio/portfolio-5.jpg"
                     alt="Product"
                     width="360"
@@ -214,7 +230,10 @@
               <a href="" class="project-link link">
                 <div class="project-box">
                   <img
-                    srcset="./images/portfolio/portfolio-6-@1x.jpg, ./images/portfolio/portfolio-6-@2x.jpg, "
+                    srcset="
+                      ./images/portfolio/portfolio-6-@1x.jpg,
+                      ./images/portfolio/portfolio-6-@2x.jpg
+                    "
                     src="./images/portfolio/portfolio-6.jpg"
                     alt="Product"
                     width="360"
@@ -237,7 +256,10 @@
               <a href="" class="project-link link">
                 <div class="project-box">
                   <img
-                    srcset="./images/portfolio/portfolio-7-@1x.jpg, ./images/portfolio/portfolio-7-@2x.jpg, "
+                    srcset="
+                      ./images/portfolio/portfolio-7-@1x.jpg,
+                      ./images/portfolio/portfolio-7-@2x.jpg
+                    "
                     src="./images/portfolio/portfolio-7.jpg"
                     alt="Product"
                     width="360"
@@ -262,7 +284,10 @@
               <a href="" class="project-link link">
                 <div class="project-box">
                   <img
-                    srcset="./images/portfolio/portfolio-8-@1x.jpg, ./images/portfolio/portfolio-8-@2x.jpg, "
+                    srcset="
+                      ./images/portfolio/portfolio-8-@1x.jpg,
+                      ./images/portfolio/portfolio-8-@2x.jpg
+                    "
                     src="./images/portfolio/portfolio-8.jpg"
                     alt="Product"
                     width="360"
@@ -285,7 +310,10 @@
               <a href="" class="project-link link">
                 <div class="project-box">
                   <img
-                    srcset="./images/portfolio/portfolio-9-@1x.jpg, ./images/portfolio/portfolio-9-@2x.jpg, "
+                    srcset="
+                      ./images/portfolio/portfolio-9-@1x.jpg,
+                      ./images/portfolio/portfolio-9-@2x.jpg
+                    "
                     src="./images/portfolio/portfolio-9.jpg"
                     alt="Product"
                     width="360"
@@ -311,7 +339,7 @@
     <!-- Footer section -->
     <footer class="footer section">
       <div class="footer-container container">
-        <div class="footer-block-logo">
+        <div class="footer-logo-container">
           <a class="logo footer-logo link" href="./index.html"
             >WEB<span class="footer-span-logo">Studio</span>
           </a>
@@ -321,9 +349,9 @@
           </p>
         </div>
         <!-- Footer social networks -->
-        <div class="footer-block-social">
+        <div class="footer-social-container">
           <p class="social-networks-text">Social media</p>
-          <ul class="social-networks-list list">
+          <ul class="social-networks-list">
             <li class="social-networks-item">
               <a
                 href="https://www.instagram.com/"
@@ -365,6 +393,30 @@
               </a>
             </li>
           </ul>
+        </div>
+        <!-- Subscribe -->
+        <div class="subscribe-container">
+          <p class="subtitle-form">Subscribe</p>
+          <form
+            class="footer-subtitle-form"
+            name="subscribe_form"
+            autocomplete="off"
+          >
+            <label class="subscribe-label">
+              <input
+                class="footer-form-input"
+                name="email-user"
+                type="email"
+                placeholder="E-mail"
+              />
+            </label>
+            <button class="footer-btn button" type="submit">
+              Subscribe
+              <svg class="footer-button-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-frame"></use>
+              </svg>
+            </button>
+          </form>
         </div>
       </div>
     </footer>
