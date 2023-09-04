@@ -548,6 +548,12 @@ body {
   color: var(--slate);
 }
 
+@media (min-width: 1158px) {
+  .text-advantages {
+    font-weight: 400;
+  }
+}
+
 /**
   |============================
   | Feature section
@@ -935,10 +941,11 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   margin-bottom: 16px;
-  }
+  text-align: center;
+}
 
 @media (min-width: 768px) {
-  .subscribe-form {
+  .subtitle-form {
     text-align: start;
   }
 }
