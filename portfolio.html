@@ -21,40 +21,52 @@
   </head>
   <body>
     <!-- Top line portfolio-->
-    <header class="header">
+    <header class="header-wrapper">
       <div class="header-container container">
-        <nav class="nav">
+        <nav class="nav-list list">
           <a class="logo link" href="./index.html"
             >Web<span class="span-logo">Studio</span></a
           >
-          <ul class="nav-list list">
+          <ul class="header-list list">
             <li>
-              <a class="nav-list-link link" href="./index.html">Studio</a>
+              <a class="nav-menu link" href="./index.html">Studio</a>
             </li>
             <li>
-              <a class="nav-list-link current link" href="./portfolio.html"
+              <a class="nav-menu current link" href="./portfolio.html"
                 >Portfolio</a
               >
             </li>
             <li>
-              <a class="nav-list-link link" href="">Contacts</a>
+              <a class="nav-menu link" href="">Contacts</a>
             </li>
           </ul>
         </nav>
         <address class="address">
-          <ul class="adress-list list">
+          <ul class="address-list list">
             <li>
-              <a class="address-item link" href="mailto:info@devstudio.com"
+              <a class="link-address link" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
               >
             </li>
             <li>
-              <a class="address-item link" href="tel:+110001111111"
+              <a class="link-address link" href="tel:+110001111111"
                 >+11 (000) 111-11-11</a
               >
             </li>
           </ul>
         </address>
+        <div class="menu-hamburger">
+          <button
+            class="btn-hamburger button menu-toggle js-open-menu"
+            type="button"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
+          >
+            <svg class="hamburger-icon icon" width="32" height="22">
+              <use href="./images/icons.svg#icon-charm-menu-hamburger"></use>
+            </svg>
+          </button>
+        </div>
       </div>
     </header>
     <!-- Buttons Portfolio -->
@@ -84,13 +96,15 @@
             <li class="project-list-item">
               <a href="" class="project-link link">
                 <div class="project-box">
-                  <img
-                    src="./images/portfolio-1.jpg"
+                  <img class="option-item-image"
+                    srcset="./images/portfolio/portfolio-1-@1x.jpg, ./images/portfolio/portfolio-1-@2x.jpg, "
+                    src="./images/portfolio/portfolio-1.jpg"
                     alt="Product"
                     width="360"
                     height="300"
+                    loading="lazy"
                   />
-                  <p class="overlay">
+                  <p class="overlay overlay-text">
                     14 Stylish and User-Friendly App Design Concepts · Task
                     Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
                     App · Cloud Storage App
@@ -108,12 +122,14 @@
               <a href="" class="project-link link">
                 <div class="project-box">
                   <img
-                    src="./images/portfolio-2.jpg"
+                    srcset="./images/portfolio/portfolio-2-@1x.jpg, ./images/portfolio/portfolio-2-@2x.jpg, "
+                    src="./images/portfolio/portfolio-2.jpg"
                     alt="Product"
                     width="360"
                     height="300"
+                    loading="lazy"
                   />
-                  <p class="overlay">
+                  <p class="overlay overlay-text">
                     14 Stylish and User-Friendly App Design Concepts · Task
                     Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
                     App · Cloud Storage App
@@ -129,12 +145,14 @@
               <a href="" class="project-link link">
                 <div class="project-box">
                   <img
-                    src="./images/portfolio-3.jpg"
+                    srcset="./images/portfolio/portfolio-3-@1x.jpg, ./images/portfolio/portfolio-3-@2x.jpg, "
+                    src="./images/portfolio/portfolio-3.jpg"
                     alt="Product"
                     width="360"
                     height="300"
+                    loading="lazy"
                   />
-                  <p class="overlay">
+                  <p class="overlay overlay-text">
                     14 Stylish and User-Friendly App Design Concepts · Task
                     Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
                     App · Cloud Storage App
@@ -150,12 +168,14 @@
               <a href="" class="project-link link">
                 <div class="project-box">
                   <img
-                    src="./images/portfolio-4.jpg"
+                    srcset="./images/portfolio/portfolio-4-@1x.jpg, ./images/portfolio/portfolio-4-@2x.jpg, "
+                    src="./images/portfolio/portfolio-4.jpg"
                     alt="Product"
                     width="360"
                     height="300"
+                    loading="lazy"
                   />
-                  <p class="overlay">
+                  <p class="overlay overlay-text">
                     14 Stylish and User-Friendly App Design Concepts · Task
                     Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
                     App · Cloud Storage App
@@ -171,12 +191,14 @@
               <a href="" class="project-link link">
                 <div class="project-box">
                   <img
-                    src="./images/portfolio-5.jpg"
+                    srcset="./images/portfolio/portfolio-5-@1x.jpg, ./images/portfolio/portfolio-5-@2x.jpg, "
+                    src="./images/portfolio/portfolio-5.jpg"
                     alt="Product"
                     width="360"
                     height="300"
+                    loading="lazy"
                   />
-                  <p class="overlay">
+                  <p class="overlay overlay-text">
                     14 Stylish and User-Friendly App Design Concepts · Task
                     Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
                     App · Cloud Storage App
@@ -192,12 +214,14 @@
               <a href="" class="project-link link">
                 <div class="project-box">
                   <img
-                    src="./images/portfolio-6.jpg"
+                    srcset="./images/portfolio/portfolio-6-@1x.jpg, ./images/portfolio/portfolio-6-@2x.jpg, "
+                    src="./images/portfolio/portfolio-6.jpg"
                     alt="Product"
                     width="360"
                     height="300"
+                    loading="lazy"
                   />
-                  <p class="overlay">
+                  <p class="overlay overlay-text">
                     14 Stylish and User-Friendly App Design Concepts · Task
                     Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
                     App · Cloud Storage App
@@ -213,12 +237,14 @@
               <a href="" class="project-link link">
                 <div class="project-box">
                   <img
-                    src="./images/portfolio-7.jpg"
+                    srcset="./images/portfolio/portfolio-7-@1x.jpg, ./images/portfolio/portfolio-7-@2x.jpg, "
+                    src="./images/portfolio/portfolio-7.jpg"
                     alt="Product"
                     width="360"
                     height="300"
+                    loading="lazy"
                   />
-                  <p class="overlay">
+                  <p class="overlay overlay-text">
                     14 Stylish and User-Friendly App Design Concepts · Task
                     Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
                     App · Cloud Storage App
@@ -236,12 +262,14 @@
               <a href="" class="project-link link">
                 <div class="project-box">
                   <img
-                    src="./images/portfolio-8.jpg"
+                    srcset="./images/portfolio/portfolio-8-@1x.jpg, ./images/portfolio/portfolio-8-@2x.jpg, "
+                    src="./images/portfolio/portfolio-8.jpg"
                     alt="Product"
                     width="360"
                     height="300"
+                    loading="lazy"
                   />
-                  <p class="overlay">
+                  <p class="overlay overlay-text">
                     14 Stylish and User-Friendly App Design Concepts · Task
                     Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
                     App · Cloud Storage App
@@ -257,12 +285,14 @@
               <a href="" class="project-link link">
                 <div class="project-box">
                   <img
-                    src="./images/portfolio-9.jpg"
+                    srcset="./images/portfolio/portfolio-9-@1x.jpg, ./images/portfolio/portfolio-9-@2x.jpg, "
+                    src="./images/portfolio/portfolio-9.jpg"
                     alt="Product"
                     width="360"
                     height="300"
+                    loading="lazy"
                   />
-                  <p class="overlay">
+                  <p class="overlay overlay-text">
                     14 Stylish and User-Friendly App Design Concepts · Task
                     Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
                     App · Cloud Storage App
@@ -291,7 +321,7 @@
           </p>
         </div>
         <!-- Footer social networks -->
-        <div class="footer-social-container">
+        <div class="footer-block-social">
           <p class="social-networks-text">Social media</p>
           <ul class="social-networks-list list">
             <li class="social-networks-item">
@@ -335,30 +365,6 @@
               </a>
             </li>
           </ul>
-        </div>
-        <!-- Subscribe -->
-        <div class="footer-subscribe-container">
-          <p class="subtitle-form">Subscribe</p>
-          <form
-            class="footer-subtitle-form"
-            name="subscribe_form"
-            autocomplete="off"
-          >
-            <label class="subscribe-label">
-              <input
-                class="footer-form-input"
-                name="email-user"
-                type="email"
-                placeholder="E-mail"
-              />
-            </label>
-            <button class="footer-btn button" type="submit">
-              Subscribe
-              <svg class="footer-button-icon" width="24" height="24">
-                <use href="./images/icons.svg#icon-frame"></use>
-              </svg>
-            </button>
-          </form>
         </div>
       </div>
     </footer>
